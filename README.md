@@ -1,5 +1,5 @@
 #BLOG
-fork并访问代码后
+fork并clone代码后
 ``` bash
 $ npm install -g hexo-cli
 ```
