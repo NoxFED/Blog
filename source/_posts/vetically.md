@@ -8,6 +8,7 @@ tags:
 - line-height
 - vertical-align
 - 垂直居中
+author: loserfucker
 <!--description: 页面布局之垂直居中,css vertical-align属性详细介绍-->
 ---
 内容垂直居中是前端页面布局时经常遇到的问题,总体分为容器内居中、视口(viewport)内居中。

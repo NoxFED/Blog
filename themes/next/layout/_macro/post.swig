@@ -98,6 +98,18 @@
             {% endif %}
           {% endif %}
 
+          {% if post.author %}
+          <span class="post-time">
+          &nbsp; | &nbsp;
+            <span class="post-meta-item-icon">
+              <i class="fa fa-user"></i>
+            </span>
+            <span>
+            {{post.author}}
+            </span>
+          </span>
+          {% endif %}
+
           {% if not is_index and theme.facebook_sdk.enable and theme.facebook_sdk.like_button %}
             &nbsp; | &nbsp;
             <div class="fb-like" data-layout="button_count" data-share="true"></div>
