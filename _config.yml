@@ -12,14 +12,14 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://noxfed.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: noxfed.github.io
+public_dir: build
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -40,7 +40,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: "'''"
 
 # Category & Tag
 default_category: uncategorized
@@ -71,8 +71,3 @@ deploy:
   repo: https://github.com/NoxFED/noxfed.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-# duoshuo config
-duoshuo_shortname: lihxhit
-
-# baidu tongji
-baidu_analytics: 9db04e38bfd8c9821fc4b62d080b4453
