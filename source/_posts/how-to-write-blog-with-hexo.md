@@ -1,17 +1,21 @@
 ---
-title: 页面布局之垂直居中(一)
-date: 2016/8/15
+title: 如何用hexo搭建博客
+date: 2016/8/18
 categories: 
-- css
+- blog
 tags:
-- css
-- line-height
-- vertical-align
-- 垂直居中
+- hexo
+- next theme
+- blog
 author: shaonan
 ---
-内容垂直居中是前端页面布局时经常遇到的问题,总体分为容器内居中、视口(viewport)内居中。
-在讨论垂直居中前我们先详细介绍一下css中的line-height和vertical-align属性。
+> Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+
+{% raw %}
+<blockquote class="warn">
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+{% endraw %}
 ## line-height
 
 ## vertical-align
