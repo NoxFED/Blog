@@ -40,4 +40,9 @@ gulp.task('images', function () {
         .pipe($.cache($.imagemin()))
         .pipe(gulp.dest(paths.images));
 });
-gulp.task('default',['scripts','styles','images']);
+gulp.task('templates', function () {
+    return gulp.src(source.templates)
+        .pipe($.htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest(paths.templates));
+});
+gulp.task('default',['scripts','styles','images','templates']);
