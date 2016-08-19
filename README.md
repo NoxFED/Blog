@@ -19,3 +19,5 @@ $ hexo g
 静态文件无需提交(已添加到ignore中)
 
 提交对源代码的修改即可, 静态资源统一生成管理
+
+hexo命令及博客写作方法详情请参考[hexo中文文档](https://hexo.io/zh-cn/docs/)
