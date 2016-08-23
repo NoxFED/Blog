@@ -37,7 +37,11 @@ pre {
 
 .highlight {
   @extend $code-block;
-
+  &.plain{
+    .gutter{
+      display none;
+    }
+  }
   pre {
     border: none;
     margin: 0;
